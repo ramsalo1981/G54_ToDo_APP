@@ -28,9 +28,9 @@ public class MyCommandLineRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         // 👨‍💻 Create Developers
-        Person dev1 = personRepository.save(new Person(null, "Dev1", "dev1@test.se"));
-        Person dev2 = personRepository.save(new Person(null, "Dev2", "dev2@test.se"));
-        Person dev3 = personRepository.save(new Person(null, "Dev3", "dev3@test.se"));
+        Person dev1 = personRepository.save(new Person( "Dev1", "dev1@test.se"));
+        Person dev2 = personRepository.save(new Person( "Dev2", "dev2@test.se"));
+        Person dev3 = personRepository.save(new Person( "Dev3", "dev3@test.se"));
 
 
         // 🧠 Create Programming Tasks
